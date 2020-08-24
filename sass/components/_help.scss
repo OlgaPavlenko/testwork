@@ -1,0 +1,29 @@
+.help {
+    padding-top: 81px;
+    padding-bottom: 83px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 82px;
+    }
+}
+
+.help-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-item {
+    display: block;
+    margin-bottom: 83px;
+}
+
+.list-item + .list-item {
+margin-left: 125px;
+}
+
+.help-logo {
+    margin-bottom: 32px;
+}
+

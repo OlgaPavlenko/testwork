@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    border: 1px;
+    border-radius: 26px;
+    background-color: $accent-color;
+    vertical-align: middle;
+    max-height: 52px;
+    color: $btn-color;
+    font-family: inherit;
+    font-size: 17px;
+    text-align: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus
+    {
+        color: $btn-color;
+    }
+}

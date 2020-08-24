@@ -1,0 +1,64 @@
+.donation {
+    padding-top: 80px;
+    padding-bottom: 85px;
+    background-color: $pets-bcg;
+
+    h2 {
+    margin-bottom: 40px;
+    }
+}
+
+
+.flex {
+    display: flex;
+}
+
+.donation-logo {
+padding-left: 18px;
+padding-right: 66px;
+margin-bottom: 16px;
+}
+
+.bank-descr {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.card-number {
+position: relative;
+display: inline-block;
+margin-bottom: 35px;
+padding-right: 15px;
+padding-left: 59px;
+max-width: 320px;
+border: none;
+font-family: Times, 'Times New Roman', serif;
+font-size: 20px;
+line-height: 2.25;
+border-radius: 9px;
+background-color: $accent-color;
+}
+
+.card-number::before{
+    position: absolute;
+    content: url(../../images/png/credit-card.png);
+   left: 4%;
+   top: 10%;
+}
+
+.donation-descr {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    font-style: italic;
+    color: $secondary-color;
+}
+
+.addition-descr {
+max-width: 350px;
+}
+
+.card-logo {
+    position: relative;
+}
+

@@ -1,0 +1,80 @@
+.pets {
+    padding-top: 87px;
+    padding-bottom: 68px;
+    background-color: $pets-bcg;
+    text-align: center;
+
+    h2{
+        padding-bottom: 74px;
+    }
+}
+
+.pets-container{
+    position: relative;
+}
+
+.pets-list{
+    display: flex;
+    margin-right: 130px;
+    margin-left: 130px;
+    .item {
+        margin-bottom: 66px;
+        background-color: $primary-color;
+        border-radius: 4px;
+        text-align: center;
+        width: calc((100% - 150px) / 3);
+        margin-right: 50px;
+    
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+}
+
+.btn-pets {
+    padding-top: 12px;
+    padding-right: 49px;
+    padding-bottom: 21px;
+    padding-left: 49px;
+    min-width: 268px;
+}
+
+.btn-pets:hover {
+    background-color: $primary-color;
+    border: 2px solid $accent-color;
+}
+
+.btn-item {
+    min-width: 188px;
+    padding-top: 12px;
+    padding-right: 42px;
+    padding-bottom: 21px;
+    padding-left: 42px;
+    margin-bottom: 34px;
+    background-color: $primary-color;
+    border: 2px solid $accent-color;
+}
+
+.btn-item:hover{
+    background-color: $accent-color;
+}
+
+.pet-logo{
+    margin-bottom: 42px;
+}
+
+.name {
+    margin-bottom: 24px;
+}
+
+.left-btn {
+    top: 50%;
+    left: 0;
+   background-image: url("../../images/svg/arrow-left.svg");
+}
+
+.right-btn {
+    top: 50%;
+    right: 0;
+    background-image: url("../../images/svg/arrow-right.svg");
+}
