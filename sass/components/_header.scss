@@ -27,7 +27,7 @@ header {
 .site-nav {
 display: flex;
 
-.item {
+.item-nav {
     display: block;
     margin-right: 40px;
 
@@ -35,9 +35,8 @@ display: flex;
         color: $primary-color;
     }
 }
-item:hover {
-}
-.item:last-child {
+
+.item-nav:last-child {
     margin-right: 0px;
 }
 
