@@ -54,8 +54,9 @@ span {
 
 header {
   padding-top: 60px;
-  background-image: url("../../images/png/header_bgi.png");
+  background-image: url("./../images/png/header_bgi.png");
   background-repeat: no-repeat;
+  background-size: cover;
   min-height: 925px;
 }
 
@@ -105,7 +106,7 @@ header {
 }
 
 .site-nav .current::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -283,13 +284,13 @@ header {
 .left-btn {
   top: 50%;
   left: 0;
-  background-image: url("../../images/svg/arrow-left.svg");
+  background-image: url("./../images/svg/arrow-left.svg");
 }
 
 .right-btn {
   top: 50%;
   right: 0;
-  background-image: url("../../images/svg/arrow-right.svg");
+  background-image: url("./../images/svg/arrow-right.svg");
 }
 
 .slider-btn {
@@ -311,7 +312,6 @@ header {
 .help {
   padding-top: 81px;
   padding-bottom: 83px;
-  text-align: center;
 }
 
 .help h2 {
@@ -338,7 +338,7 @@ header {
 }
 
 .help-logo {
-  margin-bottom: 32px;
+  margin-bottom: 0 auto 32px;
 }
 
 .donation {
@@ -385,7 +385,7 @@ header {
 
 .card-number::before {
   position: absolute;
-  content: url(../../images/png/credit-card.png);
+  content: url("./../images/png/credit-card.png");
   left: 4%;
   top: 10%;
 }
@@ -407,8 +407,9 @@ header {
 }
 
 footer {
-  background-image: url(../../images/png/footer_bgi.png);
+  background-image: url("./../images/png/footer_bgi.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-white {
@@ -456,14 +457,14 @@ footer {
 
 .email::before {
   position: absolute;
-  content: url(../../images/png/email.png);
+  content: url("./../images/png/email.png");
   left: 0;
   top: 0;
 }
 
 .phone::before {
   position: absolute;
-  content: url(../../images/png/phone.png);
+  content: url("./../images/png/phone.png");
   left: 0;
   top: 0;
 }
@@ -474,7 +475,7 @@ footer {
 
 .footer-icon::before {
   position: absolute;
-  content: url(../../images/png/pin.png);
+  content: url("./../images/png/pin.png");
   left: 0;
   top: 0;
 }
