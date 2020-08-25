@@ -312,6 +312,7 @@ header {
 .help {
   padding-top: 81px;
   padding-bottom: 83px;
+  text-align: center;
 }
 
 .help h2 {
