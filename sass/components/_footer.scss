@@ -1,70 +1,69 @@
 footer {
-    background-image: url(../../images/png/footer_bgi.png);
-    background-repeat: no-repeat;
+  background-image: url(./../images/png/footer_bgi.png);
+  background-repeat: no-repeat;
 }
 
 .footer-white {
-    color: $primary-color;
-    
+  color: $primary-color;
 
-    &.left-side {
-        margin-bottom: 38px;
-    }
+  &.left-side {
+    margin-bottom: 38px;
+  }
 
-    &.right-side {
-        margin-bottom: 24px;
-    }
+  &.right-side {
+    margin-bottom: 24px;
+  }
 }
 
 .contacts {
-    color: $accent-color;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-     li {
-        position: relative;
-        padding-left: 63px;
-     }
+  color: $accent-color;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  li {
+    position: relative;
+    padding-left: 63px;
+  }
 }
 
 .footer-parent {
-    display: flex;
-    padding-top: 75px;
-    padding-bottom: 80px;
+  display: flex;
+  padding-top: 75px;
+  padding-bottom: 80px;
 }
 
 .footer-conact {
-    max-width: 275px;
+  max-width: 275px;
 }
 
 .left-part {
-    margin-right: 179px;;
+  margin-right: 179px;
 }
 
 .email {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .email::before {
-    position: absolute;
-    content: url(../../images/png/email.png); 
-    left: 0;
-    top: 0;
+  position: absolute;
+  content: url(../../images/png/email.png);
+  left: 0;
+  top: 0;
 }
 
 .phone::before {
-    position: absolute;
-    content: url(../../images/png/phone.png);
-    left: 0;
-    top: 0;
+  position: absolute;
+  content: url(../../images/png/phone.png);
+  left: 0;
+  top: 0;
 }
 
 .address {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .footer-icon::before {
-    position: absolute;
-    content: url(../../images/png/pin.png);
-   left: 0;
-   top: 0;
+  position: absolute;
+  content: url(../../images/png/pin.png);
+  left: 0;
+  top: 0;
 }
