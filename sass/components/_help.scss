@@ -1,29 +1,27 @@
 .help {
-    padding-top: 81px;
-    padding-bottom: 83px;
-    text-align: center;
+  padding-top: 81px;
+  padding-bottom: 83px;
 
-    h2 {
-        margin-bottom: 82px;
-    }
+  h2 {
+    margin-bottom: 82px;
+  }
 }
 
 .help-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .list-item {
-    display: block;
-    margin-bottom: 83px;
+  display: block;
+  margin-bottom: 83px;
 }
 
 .list-item + .list-item {
-margin-left: 125px;
+  margin-left: 125px;
 }
 
 .help-logo {
-    margin-bottom: 32px;
+  margin-bottom: 0 auto 32px;
 }
-
